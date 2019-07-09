@@ -71,16 +71,16 @@ video {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: -31px;
+  right: 0;
   left: 0;
-  width: auto;
-  min-height: 35rem;
+  width: 53.1vw;
+  min-height: 35rem; 
   height: 100%;
   background-color: rgba(0, 46, 102, 1);
-  -webkit-transform: skewY(4deg);
+  /* -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
   -webkit-transform-origin: bottom right;
-  transform-origin: bottom right;
+  transform-origin: bottom right; */
 }
 
 .masthead .masthead-content h1 {
