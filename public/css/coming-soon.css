@@ -148,6 +148,19 @@ video {
   border-color: rgba(255, 226, 97, 1) !important;
 }
 
+#logo-img {
+  border-radius: 10px;
+  width: 600px;
+  height: 150px;
+  margin-left: -10vw;
+}
+
+#loading-img {
+  visibility: hidden;
+  margin-left:10vw;
+  height: 100px;
+  width: 100px;
+}
 .input {
   font-weight: 300 !important;
 }
