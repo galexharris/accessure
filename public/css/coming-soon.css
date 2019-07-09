@@ -71,7 +71,7 @@ video {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: -100px;
+  right: 0;
   left: 0;
   width: 100vw;
   min-height: 35rem; 
