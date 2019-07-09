@@ -5,8 +5,12 @@ const pally = require('pa11y');
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-
+app.use(express.static('public'));
 let port = 3000;
+
+app.get('/', (req, res) =>{
+    res.sendFile('index.html');
+});
 
 app.post('/api/score/', (req, res) =>{
     let url = req.body.url;
