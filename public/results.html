@@ -1,79 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/coming-soon.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
-  header{
-    background-color: rgba(26, 20, 70, 1);
 
-  }
-  .container{
-    border-color: black;
-    border-style: solid;
-    border-width: thin;
-    border-radius: 18px;
-
-    padding:5px;
-    margin:10px;
-
-    width: 15%;
-    display: inline-block;
-    text-align: center;
-
-
-  }
-
-  img{
-    width: 150px;
-    height: 150px;
-    /* width: 90% !important; */
-    border-radius:50% !important;
-    /* height:90%; */
-  }
-  #innerPic{
-    height: auto;
-    width: auto;
-    border-radius: 0%!important;
-  }
-  #noahPic{
-    height:50%;
-    border-radius: 0%!important;
-  }
-  #robPic{
-    height:10%;
-    border-radius: 0%!important;
-  }
-
-  .modal-body{
-    text-align: left;
-  }
-
-    </style>
 
 </head>
 
 
 <body>
 
-  <header>
-    hello world
-  </header>
 
+<div id="allContainers">
 <div class="container" id="noah">
   <h2> Noah </h2>
-  <img src="images/Capture1a.png">
+  <img src="images/Capture1a.png" alt="an illustration of the Noah persona from the shoulders up.">
   <h4> Color Blind </h4>
   <div></div>
   <h2> 12 Issues </h2>
 
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod1">Open Details</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod1">Open Details </button>
 
   <!-- Modal -->
   <div class="modal fade" id="mod1" role="dialog">
@@ -84,7 +35,7 @@
         <div class="modal-header" align:"center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h3 class="modal-title">Noah</h3>
-          <img id="noahPic" src="images/Capture1.png">
+          <img id="noahPic" src="images/Capture1.png" alt="an image of Noah holding a briefcase and a tablet">
             <h4> Color Blind </h4>
         </div>
         <div class="modal-body">
@@ -110,7 +61,7 @@
 </div>
 <div class="container" id="david">
   <h2> David </h2>
-  <img src="images/Capture2a.png" width="150px">
+  <img src="images/Capture2a.png" alt="an illustration of David, wearing sunglasses" width="150px">
   <h4> Blind </h4>
   <div></div>
   <h2> 2 Issues </h2>
@@ -127,7 +78,7 @@
         <div class="modal-header" align:"center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h3 class="modal-title">David</h3>
-          <img src="images/Capture2.png" id="innerPic" width="150px">
+          <img src="images/Capture2.png" alt="an illustration of Noah with sunglasses and a cane" id="innerPic" width="150px">
             <h4> Blind </h4>
         </div>
         <div class="modal-body">
@@ -155,7 +106,7 @@
 
 <div class="container" id="jane">
   <h2> Jane </h2>
-  <img src="images/Capture5a.png" width="150px">
+  <img src="images/Capture5a.png" alt="an illustration of Jane, holding a laptop close to her eyes." width="150px">
   <h4> Visually Impaired </h4>
   <div></div>
   <h2> 2 Issues </h2>
@@ -172,7 +123,7 @@
         <div class="modal-header" align:"center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h3 class="modal-title">Jane</h3>
-          <img src="images/Capture5.png" id="innerPic">
+          <img src="images/Capture5.png" alt="an illustration of Jane, holding a laptop close to her eyes." id="innerPic">
             <h4> Visually Impaired </h4>
         </div>
         <div class="modal-body">
@@ -200,7 +151,7 @@
 </div>
 <div class="container" id="rob">
   <h2> Rob </h2>
-  <img src="images/Capture3a.png" width="150px">
+  <img src="images/Capture3a.png" alt="an illustration of Rob, who has his arm in a cast." width="150px">
   <h4> Motor Issues </h4>
   <div></div>
   <h2> 2 Issues </h2>
@@ -217,7 +168,7 @@
         <div class="modal-header" align:"center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h3 class="modal-title">Rob</h3>
-          <img src="images/Capture3.png" class="innerPic" id="robPic">
+          <img src="images/Capture3.png" alt="an illustration of Rob, who has his arm in a cast." class="innerPic" id="robPic">
             <h4> Motor Issues </h4>
         </div>
         <div class="modal-body">
@@ -243,7 +194,7 @@
 </div>
 <div class="container" id="mike">
   <h2> Mike </h2>
-  <img src="images/Capture4a.png" width="150px">
+  <img src="images/Capture4a.png" alt="an illustration of Mike sitting at a computer" width="150px">
   <h4> Cognitive Impairment </h4>
   <div></div>
   <h2> 2 Issues </h2>
@@ -260,7 +211,7 @@
         <div class="modal-header" align:"center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h3 class="modal-title">Mike</h3>
-          <img src="images/Capture4.png" id="innerPic">
+          <img src="images/Capture4.png" alt="an illustration of Mike sitting at a computer" id="innerPic">
             <h4> Cognitive Impairment </h4>
         </div>
         <div class="modal-body">
@@ -284,6 +235,7 @@
     </div>
   </div>
 
+</div>
 </div>
 </body>
 </html>
