@@ -61,6 +61,7 @@ video {
 }
 
 .masthead {
+
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
@@ -149,4 +150,57 @@ video {
 
 .input {
   font-weight: 300 !important;
+}
+
+#noah, #david, #mike, #rob, #jane{
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 18px;
+
+  padding:5px;
+  margin:10px;
+
+  width: 15%;
+  display: inline-block;
+  text-align: center;
+
+  overflow: hidden;
+  min-width: 150px;
+}
+
+.max-Img{
+  width: 150px;
+  height: 150px;
+  /* width: 90% !important; */
+  border-radius:50% !important;
+  /* height:90%; */
+}
+#innerPic{
+  height: auto;
+  width: auto;
+  border-radius: 0%!important;
+}
+#noahPic{
+  height:50%;
+  border-radius: 0%!important;
+}
+#robPic{
+  height:10%;
+  border-radius: 0%!important;
+}
+
+#allContainers{
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
+
+.modal-body{
+  text-align: left;
+}
+
+.btn{
+  width:80%;
+  font-size: 1.5vw;
 }
