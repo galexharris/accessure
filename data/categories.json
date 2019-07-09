@@ -1,18 +1,18 @@
 {
     "category": {
-        "success_criterions": ["SC x.x.x"]
+        "success_criterions": ["SC x_x_x"]
     },
     "perceivable": {
-        "success_criterions": ["SC x.x.x"]
+        "success_criterions": ["SC x_x_x"]
     },
     "operable": {
-        "success_criterions": ["SC x.x.x"]
+        "success_criterions": ["SC x_x_x"]
     },
     "readable": {
-        "success_criterions": ["SC x.x.x"]
+        "success_criterions": ["SC x_x_x"]
     },
     "robust": {
-        "success_criterions": ["SC x.x.x"]
+        "success_criterions": ["SC x_x_x"]
     }
 
 }
