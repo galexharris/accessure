@@ -1,0 +1,18 @@
+{
+    "category":
+    "sub-categories": {
+        "subcategory-1",        
+    }
+    "perceivable":
+    "sub-categories":{
+        "perceivable-subcategory-1"
+    }
+    "readable":
+    "sub-categories":{
+        "readable-subcateogry-1"
+    }
+    "robust":
+    "sub-categories":{
+        "robust-subcategory-1",
+    }
+}
