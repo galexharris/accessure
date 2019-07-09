@@ -14,8 +14,12 @@ app.get('/', (req, res) =>{
 
 app.post('/api/score/', (req, res) =>{
     let url = req.body.url;
-    console.log(`URL: ${url}`);
-    res.end('done');
+    console.log(url);
+    pally(url).then((results) => {
+        // Do something with the results
+        console.log(results);
+        res.send(results);
+    });
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
