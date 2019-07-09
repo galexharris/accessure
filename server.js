@@ -3,6 +3,9 @@ const http = require('http');
 const app = express();
 const pally = require('pa11y');
 
+let db = require("./db.js")
+
+
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static('public'));
@@ -20,7 +23,9 @@ app.post('/api/score/', (req, res) =>{
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
-/*pally('https://www.libertymutual.com/').then((results) => {
+pally('https://www.libertymutual.com/').then((results) => {
     // Do something with the results
-    console.log(results);
-});*/
+    // console.log(results.issues.length);
+    db.generateReport(results.issues);
+    console.log("FINISHED");
+});

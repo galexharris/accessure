@@ -1,18 +1,18 @@
 {
-    "category":
-    "sub-categories": {
-        "subcategory-1",        
+    "category": {
+        "success_criterions": ["SC x.x.x"]
+    },
+    "perceivable": {
+        "success_criterions": ["SC x.x.x"]
+    },
+    "operable": {
+        "success_criterions": ["SC x.x.x"]
+    },
+    "readable": {
+        "success_criterions": ["SC x.x.x"]
+    },
+    "robust": {
+        "success_criterions": ["SC x.x.x"]
     }
-    "perceivable":
-    "sub-categories":{
-        "perceivable-subcategory-1"
-    }
-    "readable":
-    "sub-categories":{
-        "readable-subcateogry-1"
-    }
-    "robust":
-    "sub-categories":{
-        "robust-subcategory-1",
-    }
+
 }
