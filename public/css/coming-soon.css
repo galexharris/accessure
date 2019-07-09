@@ -71,9 +71,9 @@ video {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
+  right: -100px;
   left: 0;
-  width: 53.1vw;
+  width: 100vw;
   min-height: 35rem; 
   height: 100%;
   background-color: rgba(0, 46, 102, 1);
