@@ -12,6 +12,12 @@ function sendURL() {
         success: function (data) {
             document.getElementById('loading-img').style.visibility = "hidden";
             console.log(data);
+            document.getElementById("pageStyle").setAttribute("href", "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css");
+            var video = document.getElementById("myvid");
+            var mast = document.getElementById("mast");
+            video.style.display = "none";
+            mast.style.display = "none";
+            document.getElementById("allContainers").style.display = "block"
         }
     });
 }
