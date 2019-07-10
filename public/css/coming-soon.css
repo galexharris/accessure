@@ -151,6 +151,12 @@ video {
   border-color: rgba(255, 226, 97, 1) !important;
 }
 
+#resources{
+  background-color: light-gray;
+  
+}
+
+
 #logo-img {
   border-radius: 30px;
   width: 750px;
