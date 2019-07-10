@@ -20,9 +20,8 @@ app.post('/api/score/', (req, res) =>{
     console.log(url);
     pally(url).then((results) => {
         // Do something with the results
-        db.generateReport(results.issues);
-        console.log("Finished reading");
-        res.send(results);
+        
+        res.send(db.generateReport(results.issues));
     });
 });
 
