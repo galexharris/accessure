@@ -22,8 +22,10 @@ function sendURL() {
               document.getElementById("allContainers").style.display = "block"
                           var listElem = document.createElement("LI");
               listElem.innerHTML = data.issues[i].message;
-              document.getElementById("issues5").appendChild(listElem);
+              document.getElementById("issues3").appendChild(listElem);
             }
+
+            document.getElementById("num3").innerHTML = data.issues.length + " Issues";
 
         }
     });
