@@ -43,10 +43,8 @@ function generateReport(results) {
     for (let i = 0; i < results.length; i++) {
         let new_arr = results[i].code.split(".");
         errors_found.push(results[i].code);
-        // console.log(new_arr);
         for (let j = 0; j < new_arr.length; j++) {
             if (new_arr[j].includes("Guideline")) {
-                // console.log("TRUE", j);
                 criterions_found.push(new_arr[j + 1]);
                 break;
             }
@@ -54,8 +52,6 @@ function generateReport(results) {
 
     }
     for (let obj in personas_list) {
-        // console.log("CURR", obj);
-        // console.log(personas_list[obj]);
         let persona_result = calculateScore(personas_list[obj], criterions_found);
         let entry = {
             "persona": obj,
@@ -65,21 +61,6 @@ function generateReport(results) {
         }
         found.push(entry);
     }
-
-
-    // for (let i = 0; i < personas_list.length; i++) {
-    //     let persona_result = calculateScore(persona_list[i], criterions_found);
-
-    //     let entry = {
-    //         "persona": personas_list.persona,
-    //         "num_errors": persona_result[0],
-    //         "errors": persona_result[1]
-
-    //     }
-    //     found.push(entry);
-
-    // }
-
 
     console.log(found);
     return found;
