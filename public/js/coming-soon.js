@@ -17,7 +17,14 @@ function sendURL() {
             var mast = document.getElementById("mast");
             video.style.display = "none";
             mast.style.display = "none";
-            document.getElementById("allContainers").style.display = "block"
+            var i;
+            for(i = 0; i < data.issues.length; i++){
+              document.getElementById("allContainers").style.display = "block"
+                          var listElem = document.createElement("LI");
+              listElem.innerHTML = data.issues[i].message;
+              document.getElementById("issues5").appendChild(listElem);
+            }
+
         }
     });
 }
