@@ -1,38 +1,5 @@
-// personaOne = {
-//     "category": {
-//         "success_criterions": ["x_x_x"]
-//     },
-//     "perceivable": {
-//         "success_criterions": ["1_3_1"]
-//     },
-//     "operable": {
-//         "success_criterions": ["2_4_1"]
-//     },
-//     "readable": {
-//         "success_criterions": [""]
-//     },
-//     "robust": {
-//         "success_criterions": [""]
-//     }
-// }
-
-// personaBlind = {
-//  "perceivable": {
-//      "success_criterions": ["1_3_1"]
-//  },
-//  "operable": {
-//      "success_criterions": ["2_4_1"]
-//  },
-//  "readable": {
-//      "success_criterions": [""]
-//  },
-//  "robust": {
-//      "success_criterions": [""]
-//  }
-
-// }
-
 personaEx = ["1_3_1", "2_4_1"];
+personaCognitive
 personaBlind = ["1_1_1", "1_3_1", "1_3_2", "1_3_3", "1_4_2", "1_4_5", "1_4_7", "1_4_9", "2_1_1", "2_1_2", "2_1_3", "2_2_1", "2_2_2", "2_2_3", "2_2_4", "2_2_5", "2_4_1", "2_4_2", "2_4_3", "2_4_4", "2_4_5", "2_4_6", "2_4_7", "2_4_8", "2_4_9", "2_4_10", "3_2_1", "3_2_2", "3_2_3", "3_2_4", "3_2_5", "3_3_1", "3_3_2", "3_3_3", "3_3_4", "3_3_5", "3_3_6", "4_1_1", "4_1_2" ];
 parsedJSON = "";
 
