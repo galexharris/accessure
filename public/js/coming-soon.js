@@ -21,6 +21,14 @@ function sendURL() {
             var i;
             document.getElementById("allContainers").style.display = "block"
 
+            var listElem = document.createElement("LI");
+              listElem.innerHTML = data[1].errorstr
+            document.getElementById("issues3").appendChild(listElem);
+
+
+            var listElem = document.createElement("LI");
+              listElem.innerHTML = data[0].errorstr
+            document.getElementById("issues1").appendChild(listElem);
             // for(i = 0; i < data.issues.length; i++){
             //               var listElem = document.createElement("LI");
             //   listElem.innerHTML = data.issues[i].message;
