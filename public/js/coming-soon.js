@@ -27,6 +27,7 @@ function sendURL() {
             //   document.getElementById("issues3").appendChild(listElem);
             // }
 
+            document.getElementById("siteTitle").innerHTML = "Analyzed: "+url;
             document.getElementById("num5").innerHTML = data[0].num_errors + " Issues";
             document.getElementById("num2").innerHTML = data[1].num_errors + " Issues";
             document.getElementById("num1").innerHTML = data[2].num_errors + " Issues";
