@@ -158,6 +158,14 @@ video {
   margin-left: -13vw;
 }
 
+#logo2-img {
+  border-radius: 30px;
+  width: 100vw;
+  height: 300px;
+  margin-left: -10vw;
+  align-content: center;
+}
+
 #loading-img {
   visibility: hidden;
   margin-left:13vw;
@@ -210,6 +218,7 @@ video {
   margin: 0 auto;
   text-align: center;
   display: none;
+  background-color: white;
 }
 
 .modal-body{
