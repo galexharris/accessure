@@ -45,7 +45,7 @@
               engineers to utilize in order to improve the overall experience for <strong>Liberty Mutual </strong>
               employees and users with visual, auditory, motor or cognitive impairments.</p>
             <div class="input-group input-group-newsletter">
-              <input type="url" id="website-url" class="form-control" placeholder="Enter URL..." aria-label="Enter URL..." aria-describedby="basic-addon">
+              <input type="url" id="website-url" class="form-control" autofocus placeholder="Enter URL..." aria-label="Enter URL..." aria-describedby="basic-addon">
               <div class="input-group-append">
                 <button class="btn btn-secondary" type="button" onclick="sendURL()">Scan!</button>
               </div>
@@ -59,257 +59,274 @@
 
   <div id="allContainers">
     <div>
-        <img name="logo-img" id="logo2-img" class="mb-3" src="img/logo2.png">
+      <img name="logo-img" id="logo2-img" class="mb-3" src="img/logo2.png">
     </div>
 
     <h4 id="siteTitle"></h4>
 
-  <div class="container" id="noah">
-    <h2> Noah </h2>
-    <img class="max-Img" src="images/Capture1a.png" alt="an illustration of the Noah persona from the shoulders up.">
-    <h4> Color Blind </h4>
-    <div></div>
-    <h2 id="num1"> 12 Issues </h2>
+    <div class="container" id="noah">
+      <h2> Noah </h2>
+      <img class="max-Img" src="images/Capture1a.png" alt="an illustration of the Noah persona from the shoulders up.">
+      <h4> Color Blind </h4>
+      <div></div>
+      <h2 id="num1"> 12 Issues </h2>
 
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod1">Open Details </button>
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod1">Open Details </button>
 
-    <!-- Modal -->
-    <div class="modal fade" id="mod1" role="dialog">
-      <div class="modal-dialog">
+      <!-- Modal -->
+      <div class="modal fade" id="mod1" role="dialog">
+        <div class="modal-dialog">
 
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header" align:"center">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title">Noah</h3>
-            <img class="max-Img" id="noahPic" src="images/Capture1.png" alt="an image of Noah holding a briefcase and a tablet">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" align:"center">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Noah</h3>
+              <img class="max-Img" id="noahPic" src="images/Capture1.png" alt="an image of Noah holding a briefcase and a tablet">
               <h4> Color Blind </h4>
-          </div>
-          <div class="modal-body">
+            </div>
+            <div class="modal-body">
 
-            <p><b> Symptoms:</b> Some colors appear different to him </p>
-            <p><b> Frustrations:</b> He feels he misses information that is presented only with color </p>
-            <p><b> Design Tips:</b>
-              <ul>
-                <li> All color combinations should have a contrast ratio of at least 4.5:1 for normal-size text​</li>
-                <li> Instead of color, use symbols, outlines, bolded text, shapes etc.​ </li>
-              </ul></p>
-                <hr>
-                <p><b> Found issues:</b></p>
-                <ul id="issues1">
+              <p><b> Symptoms:</b> Some colors appear different to him </p>
+              <p><b> Frustrations:</b> He feels he misses information that is presented only with color </p>
+              <p><b> Design Tips:</b>
+                <ul>
+                  <li> All color combinations should have a contrast ratio of at least 4.5:1 for normal-size text​</li>
+                  <li> Instead of color, use symbols, outlines, bolded text, shapes etc.​ </li>
                 </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </p>
+              <hr>
+              <p><b> Found issues:</b></p>
+              <table id="issues2">
+                <tr>
+                  <th> Issue </th>
+                  <th> Selector </th>
+                </tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
+    <div class="container" id="david">
+      <h2> David </h2>
+      <img class="max-Img" src="images/Capture2a.png" alt="an illustration of David, wearing sunglasses" width="150px">
+      <h4> Blind </h4>
+      <div></div>
+      <h2 id="num2"> 2 Issues </h2>
 
-  </div>
-  <div class="container" id="david">
-    <h2> David </h2>
-    <img class="max-Img" src="images/Capture2a.png" alt="an illustration of David, wearing sunglasses" width="150px">
-    <h4> Blind </h4>
-    <div></div>
-    <h2 id="num2"> 2 Issues </h2>
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod2">Open Details</button>
 
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod2">Open Details</button>
+      <!-- Modal -->
+      <div class="modal fade" id="mod2" role="dialog">
+        <div class="modal-dialog">
 
-    <!-- Modal -->
-    <div class="modal fade" id="mod2" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header" align:"center">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title">David</h3>
-            <img class="max-Img" src="images/Capture2.png" alt="an illustration of Noah with sunglasses and a cane" id="innerPic" width="150px">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" align:"center">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">David</h3>
+              <img class="max-Img" src="images/Capture2.png" alt="an illustration of Noah with sunglasses and a cane" id="innerPic" width="150px">
               <h4> Blind </h4>
-          </div>
-          <div class="modal-body">
+            </div>
+            <div class="modal-body">
 
-            <p><b> Symptoms:</b> Relies entirely on audio screen readers to navigate the web </p>
-            <p><b> Frustrations:</b> Websites are poorly optimized for screen readers and hard to navigate </p>
-            <p><b> Design Tips:</b>
-              <ul>
-                <li> Improve screen reader experience​</li>
-                <li> Every image has appropriate alternative text​ and every form control has an associated label</li>
-                <li> Labels are positioned correctly on forms </li>
-              </ul></p>
-                <hr>
-                <p><b> Found issues:</b></p>
-                <ul id="issues2">
+              <p><b> Symptoms:</b> Relies entirely on audio screen readers to navigate the web </p>
+              <p><b> Frustrations:</b> Websites are poorly optimized for screen readers and hard to navigate </p>
+              <p><b> Design Tips:</b>
+                <ul>
+                  <li> Improve screen reader experience​</li>
+                  <li> Every image has appropriate alternative text​ and every form control has an associated label</li>
+                  <li> Labels are positioned correctly on forms </li>
                 </ul>
+              </p>
+              <hr>
+              <p><b> Found issues:</b></p>
+              <table id="issues1">
+                <tr>
+                  <th> Issue </th>
+                  <th> Selector </th>
+                </tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
 
+        </div>
       </div>
+
     </div>
 
-  </div>
+    <div class="container" id="jane">
+      <h2> Jane </h2>
+      <img class="max-Img" src="images/Capture5a.png" alt="an illustration of Jane, holding a laptop close to her eyes." width="150px">
+      <h4> Visually Impaired </h4>
+      <div></div>
+      <h2 id="num3"> 2 Issues </h2>
 
-  <div class="container" id="jane">
-    <h2> Jane </h2>
-    <img class="max-Img" src="images/Capture5a.png" alt="an illustration of Jane, holding a laptop close to her eyes." width="150px">
-    <h4> Visually Impaired </h4>
-    <div></div>
-    <h2 id="num3"> 2 Issues </h2>
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod3">Open Details</button>
 
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod3">Open Details</button>
+      <!-- Modal -->
+      <div class="modal fade" id="mod3" role="dialog">
+        <div class="modal-dialog">
 
-    <!-- Modal -->
-    <div class="modal fade" id="mod3" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header" align:"center">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title">Jane</h3>
-            <img class="max-Img" src="images/Capture5.png" alt="an illustration of Jane, holding a laptop close to her eyes." id="innerPic">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" align:"center">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Jane</h3>
+              <img class="max-Img" src="images/Capture5.png" alt="an illustration of Jane, holding a laptop close to her eyes." id="innerPic">
               <h4> Visually Impaired </h4>
-          </div>
-          <div class="modal-body">
+            </div>
+            <div class="modal-body">
 
-            <p><b> Symptoms:</b> Has some vision, but hard to see details and small text </p>
-            <p><b> Frustrations:</b> Websites are very hard to use due to small text and poor contrast.
-                                      Non-responsive websites don't adjust well to zooming in.</p>
-            <p><b> Design Tips:</b>
-              <ul>
-                <li> Use large text with high contrast and appropriate line spacing</li>
-                <li> Ensure content is responsive with window zoom </li>
-                <li> All important content is made clear and easy to find </li>
-              </ul></p>
-                <hr>
-                <p><b> Found issues:</b></p>
-                <ul id="issues3">
+              <p><b> Symptoms:</b> Has some vision, but hard to see details and small text </p>
+              <p><b> Frustrations:</b> Websites are very hard to use due to small text and poor contrast.
+                Non-responsive websites don't adjust well to zooming in.</p>
+              <p><b> Design Tips:</b>
+                <ul>
+                  <li> Use large text with high contrast and appropriate line spacing</li>
+                  <li> Ensure content is responsive with window zoom </li>
+                  <li> All important content is made clear and easy to find </li>
                 </ul>
+              </p>
+              <hr>
+              <p><b> Found issues:</b></p>
+              <table id="issues3">
+                <tr>
+                  <th> Issue </th>
+                  <th> Selector </th>
+                </tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+
         </div>
-
       </div>
+
     </div>
+    <div class="container" id="rob">
+      <h2> Rob </h2>
+      <img class="max-Img" src="images/Capture3a.png" alt="an illustration of Rob, who has his arm in a cast." width="150px">
+      <h4> Motor Issues </h4>
+      <div></div>
+      <h2 id="num4"> 2 Issues </h2>
 
-  </div>
-  <div class="container" id="rob">
-    <h2> Rob </h2>
-    <img class="max-Img" src="images/Capture3a.png" alt="an illustration of Rob, who has his arm in a cast." width="150px">
-    <h4> Motor Issues </h4>
-    <div></div>
-    <h2 id="num4"> 2 Issues </h2>
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod4">Open Details</button>
 
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod4">Open Details</button>
+      <!-- Modal -->
+      <div class="modal fade" id="mod4" role="dialog">
+        <div class="modal-dialog">
 
-    <!-- Modal -->
-    <div class="modal fade" id="mod4" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header" align:"center">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title">Rob</h3>
-            <img class="max-Img" src="images/Capture3.png" alt="an illustration of Rob, who has his arm in a cast." class="innerPic" id="robPic">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" align:"center">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Rob</h3>
+              <img class="max-Img" src="images/Capture3.png" alt="an illustration of Rob, who has his arm in a cast." class="innerPic" id="robPic">
               <h4> Motor Issues </h4>
-          </div>
-          <div class="modal-body">
+            </div>
+            <div class="modal-body">
 
-            <p><b> Symptoms:</b> Limited mobility in certain body parts, uses only keyboard or mouse </p>
-            <p><b> Frustrations:</b> Websites cannot be navigated with just the keyboard </p>
-            <p><b> Design Tips:</b>
-              <ul>
-                <li> Ensure tab order is logical and fast ​</li>
-                <li> Ensure all important functions are accessible via keyboard only </li>
-              </ul></p>
-                <hr>
-                <p><b> Found issues:</b></p>
-                <ul id="issues4">
+              <p><b> Symptoms:</b> Limited mobility in certain body parts, uses only keyboard or mouse </p>
+              <p><b> Frustrations:</b> Websites cannot be navigated with just the keyboard </p>
+              <p><b> Design Tips:</b>
+                <ul>
+                  <li> Ensure tab order is logical and fast ​</li>
+                  <li> Ensure all important functions are accessible via keyboard only </li>
                 </ul>
+              </p>
+              <hr>
+              <p><b> Found issues:</b></p>
+              <table id="issues4">
+                <tr>
+                  <th> Issue </th>
+                  <th> Selector </th>
+                </tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+
         </div>
-
       </div>
+
     </div>
+    <div class="container" id="mike">
+      <h2> Mike </h2>
+      <img class="max-Img" src="images/Capture4a.png" alt="an illustration of Mike sitting at a computer" width="150px">
+      <h4>Cognitively Impaired</h4>
+      <h2 id="num5"> 2 Issues </h2>
 
-  </div>
-  <div class="container" id="mike">
-    <h2> Mike </h2>
-    <img class="max-Img" src="images/Capture4a.png" alt="an illustration of Mike sitting at a computer" width="150px">
-    <h4>Cognitively Impaired</h4>
-    <h2 id="num5"> 2 Issues </h2>
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod5">Open Details</button>
 
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mod5">Open Details</button>
+      <!-- Modal -->
+      <div class="modal fade" id="mod5" role="dialog">
+        <div class="modal-dialog">
 
-    <!-- Modal -->
-    <div class="modal fade" id="mod5" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header" align:"center">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title">Mike</h3>
-            <img class="max-Img" src="images/Capture4.png" alt="an illustration of Mike sitting at a computer" id="innerPic">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" align:"center">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Mike</h3>
+              <img class="max-Img" src="images/Capture4.png" alt="an illustration of Mike sitting at a computer" id="innerPic">
               <h4>Cognitively Impaired</h4>
-          </div>
-          <div class="modal-body">
+            </div>
+            <div class="modal-body">
 
-            <p><b> Symptoms:</b> Processing information takes longer, and too much info can be overwhelming </p>
-            <p><b> Frustrations:</b> Websites are too complicated, which makes him feel rushed and confused </p>
-            <p><b> Design Tips:</b>
-              <ul>
-                <li> Keep design simple, with only necessary information ​</li>
-                <li> Avoid distractions such as autoplaying media </li>
-                <li> Ensure important information is presented clearly </li>
-              </ul></p>
-                <hr>
-                <p><b> Found issues:</b></p>
-                <ul id="issues5">
+              <p><b> Symptoms:</b> Processing information takes longer, and too much info can be overwhelming </p>
+              <p><b> Frustrations:</b> Websites are too complicated, which makes him feel rushed and confused </p>
+              <p><b> Design Tips:</b>
+                <ul>
+                  <li> Keep design simple, with only necessary information ​</li>
+                  <li> Avoid distractions such as autoplaying media </li>
+                  <li> Ensure important information is presented clearly </li>
                 </ul>
+              </p>
+              <hr>
+              <p><b> Found issues:</b></p>
+              <table id="issues0">
+                <tr>
+                  <th> Issue </th>
+                  <th> Selector </th>
+                </tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+
         </div>
-
       </div>
+
     </div>
+    <div id="resources"> <b> Additional Accessibility Resources <b> <br>
+          <a href=https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/> WCAG2 Standards </a> <br>
+            <a href=https://webaim.org/resources/> WebAIM Resources </a> <br>
+              <a href=https://www.w3.org/WAI/fundamentals/accessibility-intro//> W3 Accessibility Fundamentals </a> </div> </div> <!-- Bootstrap core JavaScript -->
+                <script src="vendor/jquery/jquery.min.js"></script>
+                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </div>
-  <div id="resources"> <b> Additional Accessibility Resources <b> <br>
-      <a href=https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/> WCAG2 Standards </a> <br>
-      <a href=https://webaim.org/resources/> WebAIM Resources </a> <br>
-      <a href=https://www.w3.org/WAI/fundamentals/accessibility-intro//> W3 Accessibility Fundamentals </a>
-
-  </div>
-
-  </div>
-
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.js"></script>
-  <script src="js/coming-soon.min.js"></script>
+                <!-- Custom scripts for this template -->
+                <script src="js/coming-soon.js"></script>
+                <script src="js/coming-soon.min.js"></script>
 
 </body>
 
