@@ -41,12 +41,18 @@
               engineers to utilize in order to improve the overall experience for <strong>Liberty Mutual </strong>
               employees and users with visual, auditory, motor or cognitive impairments.</p>
             </div>
-            <div class="input-group input-group-newsletter">
+
+            <input type="url" id="website-url" class="form-control" autofocus placeholder="Enter URL..." aria-label="Enter URL...">
+            <!-- <div class="input-group-append"> -->
+            <button class="btn btn-secondary" id="submitter" type="button" onclick="sendURL()">Scan!</button>
+
+
+            <!-- <div class="input-group input-group-newsletter">
               <input type="url" id="website-url" class="form-control" autofocus placeholder="Enter URL..." aria-label="Enter URL..." aria-describedby="basic-addon">
-              <div class="input-group-append">
-                <button class="btn btn-secondary" type="button" onclick="sendURL()">Scan!</button>
+              <div class="input-group-append"> -->
+                <!-- <button class="btn btn-secondary" type="button" onclick="sendURL()">Scan!</button>
               </div>
-            </div>
+            </div> -->
           </div>
             <img name="loading-img" id="loading-img" class="mb-3" src="img/loader.gif">
           </div>

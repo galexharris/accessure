@@ -53,6 +53,20 @@ video {
   width: 80%;
   text-align: justify;
   margin-left: 10%;
+  margin-top: 30%;
+}
+
+#website-url{
+  width:70%;
+  margin-left: 10%;
+  height: 75px;
+  font-size: 25px;
+  display: inline;
+}
+#submitter{
+  display: inline-block;
+  height: 75px;
+  width:9%;
 }
 
 .overlay {
