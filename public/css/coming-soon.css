@@ -244,6 +244,11 @@ video {
   width:80%;
 }
 
+.modal-footer{
+  text-align: center;
+  align-content: center;
+}
+
 .btn{
   width:80%;
   font-size: 1.5vw;
