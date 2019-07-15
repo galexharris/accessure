@@ -49,7 +49,11 @@ video {
   }
 }
 
-
+#prose{
+  width: 80%;
+  text-align: justify;
+  margin-left: 10%;
+}
 
 .overlay {
   position: absolute;
