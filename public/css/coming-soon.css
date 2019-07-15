@@ -54,7 +54,8 @@ video {
   font-size: 28px;
   text-align: justify;
   margin-left: 10%;
-  margin-top: 30%;
+  margin-top: 40%;
+  margin-bottom: 25px;
 }
 
 #website-url{
@@ -65,6 +66,7 @@ video {
   display: inline;
 }
 #submitter{
+  margin-bottom: 7px;
   display: inline-block;
   height: 75px;
   width:9%;
