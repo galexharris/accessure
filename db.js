@@ -13,7 +13,7 @@ let personaVisuallyImpaired = ["1_1_1", "1_3_1", "1_3_2", "1_3_3", "1_4_2", "1_4
  "2_4_6", "2_4_7", "2_4_8", "2_4_9", "2_4_10", "3_2_1", "3_2_2", "3_2_3", "3_2_4", "3_2_5", "3_3_1", "3_3_2", "3_3_3", "3_3_4", "3_3_5", "3_3_6", "4_1_1", "4_1_2"];
 let personaMotor = ["2_1_1", "2_1_2", "2_1_3", "2_4_1", "2_4_3", "2_4_7"];
 
-//Once a Persona has been created, add it to the personas_list so that it would be included in when scanning the site.
+//Once a Persona has been created, add it to the personas_list so that it would be included when scanning the site.
 
 personas_list = {
     'Cognitive': personaCognitive,
@@ -34,7 +34,7 @@ personas_list = {
  * 
  * @param {*} error_objects
  * 
- * @returns An array in which index 0 contains the total issues (integer) and errors found (json objects)
+ * @returns An array in which index 0 contains the total issues (integer) and index 1 contains errors found (json objects)
  */
 function calculateScore(criterion_arr, error_objects) {
     total_issues = 0;
