@@ -41,13 +41,15 @@ function sendURL() {
                   var row = table.insertRow(-1);
                   var cell1 = row.insertCell(0);
                   var cell2 = row.insertCell(1);
+                  var cell3 = row.insertCell(2);
                   cell1.innerHTML = data[issueNum].errors[i].message;
                   cell2.innerHTML = data[issueNum].errors[i].selector;
+                  cell3.innerHTML = data[issueNum].errors[i].guideline;
               }
             }
 
             //Replace front page issue counts
-            document.getElementById("siteTitle").innerHTML = "Analyzed: "+url;
+            document.getElementById("analyzedSite").innerHTML = "Analyzed: "+url;
             document.getElementById("num5").innerHTML = data[0].num_errors + " Issues";
             document.getElementById("num2").innerHTML = data[1].num_errors + " Issues";
             document.getElementById("num1").innerHTML = data[2].num_errors + " Issues";
