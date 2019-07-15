@@ -49,6 +49,8 @@ video {
   }
 }
 
+
+
 .overlay {
   position: absolute;
   top: 0;
@@ -60,12 +62,18 @@ video {
   z-index: 1;
 }
 
-.masthead {
+.masthead2 {
 
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
-  z-index: 2;
+  z-index: 0;
+  width: 50%;
+  height:100%;
+  background-color: rgba(0, 46, 102, 1);
+  z-index:1;
+  color:white;
+  font-size: 2.0rem;
 }
 
 .masthead .masthead-bg {
@@ -76,7 +84,6 @@ video {
   left: 0;
   width: 100vw;
   min-height: 35rem;
-  height: 100%;
   background-color: rgba(0, 46, 102, 1);
   /* -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
