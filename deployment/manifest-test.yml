@@ -1,0 +1,15 @@
+applications:
+  - name: pixelpals-test
+    routes:
+      - route: pixelpals-test.us-east-1.np.paas.lmig.com
+    buildpack: nodejs_current
+    instances: 1
+    memory: 512M
+    timeout: 180
+    services:
+      - pixelpals-test-keys
+      - everyday-curfew
+    env:
+      NODE_ENV: production
+    blue-green:
+      health-check-endpoint: /health
