@@ -11,5 +11,4 @@ applications:
       - everyday-curfew
     env:
       NODE_ENV: production
-    blue-green:
-      health-check-endpoint: /health
+    

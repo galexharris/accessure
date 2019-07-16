@@ -25,7 +25,7 @@ app.post('/api/score/', (req, res) =>{
     });
 });
 
-let port = process.env.VCAP_APP_PORT || 3001
+let port = process.env.VCAP_APP_PORT || 3000
 //
 // app.listen(port, () => {
 // 		console.log(`Socket & Express Server running on port ${port}`)
