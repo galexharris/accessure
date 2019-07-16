@@ -84,10 +84,10 @@ video {
 }
 
 #logo-img {
-  width: 750px;
-  height: 150px;
-  margin-left: 15%;
-  margin-top: 150px;
+  width: 1000px;
+  height: 200px;
+  margin-left: -10vw;
+  margin-top: 10vh;
 }
 
 .masthead2 {
