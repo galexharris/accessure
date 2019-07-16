@@ -10,8 +10,11 @@
 
   <title>Pixel Pals - Accessure</title>
 
-  <!-- Bootstrap core CSS Ashton's first-->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" id="pageStyle">
+  <!-- Bootstrap core CSS Ashton's first - No longer needed but preserved just in case-->
+  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" id="pageStyle"> -->
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet" id="pageStyle">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
@@ -34,28 +37,22 @@
   </video>
 
 
-  <div class="masthead" id="mast">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <img name="logo-img" id="logo-img" class="mb-3" src="img/logo.png">
-            <p class="mb-5">A performance measurement application for developers, testers, and
+  <div class="masthead2" id="mast">
+    <div id="left">
+      <img name="logo-img" id="logo-img" src="img/logo.png">
+      <div id="prose">
+            <p> A performance measurement application for developers, testers, and
               engineers to utilize in order to improve the overall experience for <strong>Liberty Mutual </strong>
-              employees and users with visual, auditory, motor or cognitive impairments.</p>
-            <div class="input-group input-group-newsletter">
-              <input type="url" id="website-url" class="form-control" autofocus placeholder="Enter URL..." aria-label="Enter URL..." aria-describedby="basic-addon">
-              <div class="input-group-append">
-                <button class="btn btn-secondary" type="button" onclick="sendURL()">Scan!</button>
-              </div>
+              employees and users with visual, motor or cognitive impairments.</p>
             </div>
+
+            <input type="url" id="website-url" class="form-control" autofocus placeholder="Enter URL..." aria-label="Enter URL...">
+            <button class="btn btn-secondary" id="submitter" type="button" onclick="sendURL()"><b>Scan!</b></button>
+
+          </div>
             <img name="loading-img" id="loading-img" class="mb-3" src="img/loader.gif">
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
   <div id="allContainers">
     <div>
