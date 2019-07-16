@@ -49,13 +49,14 @@ video {
   }
 }
 
+
 #prose{
   width: 80%;
   font-size: 28px;
   text-align: justify;
   margin-left: 10%;
-  margin-top: 40%;
-  margin-bottom: 25px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 #website-url{
@@ -65,26 +66,31 @@ video {
   font-size: 25px;
   display: inline;
 }
+
 #submitter{
-  margin-bottom: 7px;
   display: inline-block;
   height: 75px;
-  width:9%;
+  width:10%;
+  margin-bottom: 7px;
+  color: rgba(0, 46, 102, 1);
+  background-color: rgba(255, 208, 0, 1);
+  border-color: rgba(255, 208, 0, 1);
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  /* background-color: #cd9557; */
-  opacity: 0.7;
-  z-index: 1;
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  color: rgba(0, 46, 102, 1);
+  background-color: rgba(255, 226, 97, 1) !important;
+  border-color: rgba(255, 226, 97, 1) !important;
+}
+
+#logo-img {
+  width: 750px;
+  height: 150px;
+  margin-left: 15%;
+  margin-top: 150px;
 }
 
 .masthead2 {
-
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
@@ -97,49 +103,6 @@ video {
   font-size: 2.0rem;
 }
 
-.masthead .masthead-bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100vw;
-  min-height: 35rem;
-  background-color: rgba(0, 46, 102, 1);
-  /* -webkit-transform: skewY(4deg);
-  transform: skewY(4deg);
-  -webkit-transform-origin: bottom right;
-  transform-origin: bottom right; */
-}
-
-.masthead .masthead-content h1 {
-  font-size: 2.5rem;
-}
-
-.masthead .masthead-content p {
-  font-size: 2.0rem;
-  width: 500px;
-}
-
-.masthead .masthead-content p strong {
-  font-weight: 700;
-}
-
-.masthead .masthead-content .input-group-newsletter input {
-  height: auto;
-  font-size: 1rem;
-  padding: 1rem;
-  /* width: 75px; */
-}
-
-.masthead .masthead-content .input-group-newsletter button {
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 1rem;
-  padding-right: 3rem;
-}
 
 @media (min-width: 768px) {
   .masthead {
@@ -167,30 +130,11 @@ video {
   }
 }
 
-.btn-secondary {
-  color: rgba(0, 46, 102, 1);
-  background-color: rgba(255, 208, 0, 1);
-  border-color: rgba(255, 208, 0, 1);
-}
-
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  color: rgba(0, 46, 102, 1);
-  background-color: rgba(255, 226, 97, 1) !important;
-  border-color: rgba(255, 226, 97, 1) !important;
-}
-
 #resources{
-  background-color: light-gray;
-
+  font-size: 20px;
 }
 
 
-#logo-img {
-  border-radius: 30px;
-  width: 750px;
-  height: 150px;
-  margin-left: -13vw;
-}
 
 #logo2-img {
   border-radius: 30px;
@@ -202,7 +146,7 @@ video {
 
 #loading-img {
   visibility: hidden;
-  margin-left:13vw;
+  margin-left:50%;
   height: 100px;
   width: 100px;
 }

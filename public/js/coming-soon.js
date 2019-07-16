@@ -12,8 +12,8 @@ function sendURL() {
         success: function (data) {
             console.log(data);
 
-            //switch bootstrap stylesheets after we get the API call (sorry)
-            document.getElementById("pageStyle").setAttribute("href", "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css");
+          //  //switch bootstrap stylesheets after we get the API call (no longer needed but preserved)
+          //  document.getElementById("pageStyle").setAttribute("href", "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css");
 
             //hide the front page
             document.getElementById('loading-img').style.visibility = "hidden";
